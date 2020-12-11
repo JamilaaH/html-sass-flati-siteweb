@@ -6148,7 +6148,7 @@ header nav .logo {
 }
 
 header nav .navigation {
-  flex: 2;
+  flex: 4;
 }
 
 header nav .navigation ul {
@@ -6166,4 +6166,10 @@ header nav .navigation ul li {
 header nav .navigation ul li a {
   text-decoration: none;
   color: white;
+}
+
+header .banner {
+  background-image: url("/public/img/bg-header.png");
+  background-size: contain;
+  height: 300px;
 }
