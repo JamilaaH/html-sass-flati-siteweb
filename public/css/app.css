@@ -6129,6 +6129,8 @@ readers do not read off random characters that represent icons */
 
 body {
   margin: 0;
+  background-color: #EFEFF1;
+  font-family: "roboto-regular";
 }
 
 header nav {
@@ -6165,7 +6167,13 @@ header nav .navigation ul li {
 
 header nav .navigation ul li a {
   text-decoration: none;
+  color: grey;
+}
+
+header nav .navigation ul li:hover a {
+  height: 60px;
   color: white;
+  background-color: blue;
 }
 
 header .banner {
@@ -6192,4 +6200,46 @@ header .banner {
 .section1 p .surligne {
   background-color: #26A2CC;
   color: white;
+}
+
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 .card {
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin: 15px;
+  background-color: #E2E0E0;
+}
+
+.section2 .card .entete {
+  margin: 10px;
+}
+
+.section2 .card .entete i {
+  color: #3676BB;
+  background-color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.section2 .card .titre {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.section2 .card .titre p {
+  padding: 0;
+  color: #67C1D9;
 }

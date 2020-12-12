@@ -1,5 +1,8 @@
 body
     margin: 0
+    background-color: #EFEFF1
+    font-family: "roboto-regular"
+
 
 header 
     nav
@@ -25,12 +28,19 @@ header
                 justify-content: center
                 align-items: center
                 li
+
                     padding: 0 10px
                     text-transform: uppercase
 
                     a
                         text-decoration: none
-                        color: white
+                        color: grey
+
+                    &:hover
+                        a
+                            height: 60px
+                            color: white
+                            background-color: blue
 
     .banner 
             background-image: url("/public/img/bg-header.png")
