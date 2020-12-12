@@ -6144,7 +6144,7 @@ header nav {
 
 header nav .logo {
   flex: 2;
-  margin: 0 25px;
+  margin-left: 15%;
   text-transform: uppercase;
   color: white;
 }
@@ -6185,19 +6185,24 @@ header .banner {
 .section1 {
   background-color: #E2E0E0;
   height: 200px;
+}
+
+.section1 div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.section1 p {
-  padding: 10px;
+.section1 div p {
   font-family: "roboto-regular";
   text-align: center;
 }
 
-.section1 p .surligne {
+.section1 div p .surligne {
   background-color: #26A2CC;
   color: white;
 }
@@ -6207,6 +6212,7 @@ header .banner {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: 30px;
 }
 
 .section2 .card {
@@ -6218,7 +6224,7 @@ header .banner {
   justify-content: center;
   align-items: center;
   width: 20%;
-  margin: 15px;
+  margin: 10px;
   background-color: #E2E0E0;
 }
 
@@ -6242,4 +6248,48 @@ header .banner {
 .section2 .card .titre p {
   padding: 0;
   color: #67C1D9;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10%;
+}
+
+.section3 .contenu button {
+  background-color: #56B4D4;
+  padding: 13px;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+}
+
+.section3 .portfolio {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 .portfolio .card {
+  width: 50%;
+  margin: 0 4px;
+  background-color: #38485F;
+  text-align: center;
+  color: white;
+}
+
+.section3 .portfolio .card .entete img {
+  width: 100%;
+}
+
+.section3 .portfolio .card .titre {
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.section3 .portfolio .card .text {
+  padding: 5px;
 }
