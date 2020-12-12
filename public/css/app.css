@@ -6173,3 +6173,23 @@ header .banner {
   background-size: contain;
   height: 300px;
 }
+
+.section1 {
+  background-color: #E2E0E0;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1 p {
+  padding: 10px;
+  font-family: "roboto-regular";
+  text-align: center;
+}
+
+.section1 p .surligne {
+  background-color: #26A2CC;
+  color: white;
+}
