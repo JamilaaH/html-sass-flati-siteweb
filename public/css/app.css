@@ -3,6 +3,11 @@
   src: url("../fonts/roboto/Roboto-Regular.ttf");
 }
 
+@font-face {
+  font-family: "roboto-thin";
+  src: url("../fonts/roboto/Roboto-Thin.ttf");
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6254,7 +6259,7 @@ header .banner {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 10%;
+  margin: 10px 10%;
 }
 
 .section3 .contenu button {
@@ -6292,4 +6297,51 @@ header .banner {
 
 .section3 .portfolio .card .text {
   padding: 5px;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #3676BB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "roboto-thin";
+}
+
+footer .contenu {
+  color: white;
+  text-align: center;
+}
+
+footer .contenu h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+footer .reseaux ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+footer .reseaux ul li {
+  text-decoration: none;
+}
+
+footer .reseaux ul li a {
+  margin: 0 10px;
+}
+
+footer .reseaux ul li a i {
+  color: white;
+  font-size: 22px;
+}
+
+footer .copy {
+  background-color: #363B47;
+  width: 100%;
+  text-align: center;
+  color: grey;
 }
