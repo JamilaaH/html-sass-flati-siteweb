@@ -6185,29 +6185,29 @@ header .banner img {
   width: 100%;
 }
 
-.section1 {
+.citation {
   background-color: #E2E0E0;
-  height: 200px;
-}
-
-.section1 div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.section1 div p {
-  font-family: "roboto-regular";
   text-align: center;
+  padding: 40px 15%;
 }
 
-.section1 div p .surligne {
+.citation h1 {
+  color: grey;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.citation h1 span:first-of-type {
   background-color: #26A2CC;
   color: white;
+}
+
+.citation h1 span:nth-of-type(2) {
+  color: #3676BB;
+}
+
+.citation h1 span:last-of-type {
+  font-weight: bold;
 }
 
 .section2 {
@@ -6260,12 +6260,20 @@ header .banner img {
   margin: 40px 10%;
 }
 
+.section3 .contenu {
+  color: grey;
+}
+
 .section3 .contenu button {
   background-color: #56B4D4;
   padding: 13px;
   border: 0;
   color: white;
   border-radius: 10px;
+}
+
+.section3 .contenu p:last-of-type {
+  font-weight: bold;
 }
 
 .section3 .portfolio {
@@ -6312,6 +6320,10 @@ footer {
 footer .contenu {
   color: white;
   text-align: center;
+}
+
+footer .contenu p {
+  line-height: 250%;
 }
 
 footer .contenu h1 {
