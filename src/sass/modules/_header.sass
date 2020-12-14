@@ -1,36 +1,25 @@
-body
-    margin: 0
-    background-color: #EFEFF1
-    font-family: "roboto-regular"
-
-
 header 
     nav
         display: flex
         align-items: center
-        justify-content: center
+        justify-content: space-evenly
         background-color: $colorHeader
         height: auto
-        font-family: roboto-regular
-
+        text-transform: uppercase
         .logo
-            flex: 2
-            margin-left: 15%
-            text-transform: uppercase
-            color: white
+            a
+                color: white
+                text-decoration: none
 
         .navigation
-            flex: 4
-            
             ul
                 list-style: none
                 display: flex
                 justify-content: center
-                align-items: center
-                li
+                margin-bottom: 0
 
-                    padding: 0 10px
-                    text-transform: uppercase
+                li
+                    padding: 10px
 
                     a
                         padding: 10 px
@@ -38,13 +27,16 @@ header
                         color: grey
                         height: 150%
                     &:hover
+                        background-color: $colorActive
+                        cursor: pointer
+                        border-top-left-radius: 5px
+                        border-top-right-radius: 5px
                         a
                             color: white
-                            background-color: blue
 
 
     .banner 
-            background-image: url("/public/img/bg-header.png")
-            background-size: contain
-            height: 300px
+        img
+            width: 100%
+
 

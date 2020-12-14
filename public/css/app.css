@@ -6135,39 +6135,32 @@ readers do not read off random characters that represent icons */
 body {
   margin: 0;
   background-color: #EFEFF1;
-  font-family: "roboto-regular";
+  font-family: 'roboto-regular';
 }
 
 header nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: #363B47;
   height: auto;
-  font-family: roboto-regular;
-}
-
-header nav .logo {
-  flex: 2;
-  margin-left: 15%;
   text-transform: uppercase;
-  color: white;
 }
 
-header nav .navigation {
-  flex: 4;
+header nav .logo a {
+  color: white;
+  text-decoration: none;
 }
 
 header nav .navigation ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-bottom: 0;
 }
 
 header nav .navigation ul li {
-  padding: 0 10px;
-  text-transform: uppercase;
+  padding: 10px;
 }
 
 header nav .navigation ul li a {
@@ -6177,15 +6170,19 @@ header nav .navigation ul li a {
   height: 150%;
 }
 
-header nav .navigation ul li:hover a {
-  color: white;
-  background-color: blue;
+header nav .navigation ul li:hover {
+  background-color: #3676BB;
+  cursor: pointer;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
-header .banner {
-  background-image: url("/public/img/bg-header.png");
-  background-size: contain;
-  height: 300px;
+header nav .navigation ul li:hover a {
+  color: white;
+}
+
+header .banner img {
+  width: 100%;
 }
 
 .section1 {
